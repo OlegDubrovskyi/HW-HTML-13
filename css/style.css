@@ -1,0 +1,57 @@
+header {
+	background-image: url(../img/headerBackground.png);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+p {
+	margin: 0;
+    padding: 0;
+}
+
+.menu { 
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  margin-right: 30px; 
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 0.24;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+header h1{
+	margin-top: 252px;
+	margin-bottom: 42px;
+}
+
+.h {
+	color: #f7600e;
+}
+
+.header-text{
+  width: 66%;
+  font-size: 25px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  margin-bottom: 67px;
+}
+
+.button{
+	text-transform: uppercase;
+	background-color: #3f444b;
+	margin-right: 30px;
+	font-size: 16px;
+	font-family: "Open Sans";
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+
+.headerIcon{
+	margin-top: 192px;
+}
