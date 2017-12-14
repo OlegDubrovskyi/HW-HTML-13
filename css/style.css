@@ -9,6 +9,10 @@ p {
     padding: 0;
 }
 
+.decorationNone{
+     text-decoration: none;
+}
+
 .menu { 
   font-size: 16px;
   font-family: "Open Sans";
@@ -42,16 +46,61 @@ header h1{
   margin-bottom: 67px;
 }
 
-.button{
-	text-transform: uppercase;
-	background-color: #3f444b;
-	margin-right: 30px;
-	font-size: 16px;
-	font-family: "Open Sans";
-	color: rgb(255, 255, 255);
-	border-radius: 7px;
+.button a{
+  
 }
+
+.button:hover {
+  background-color: #f7600e;
+  text-decoration: none;
+}
+
+
+.button{
+    margin: 0 auto;
+    border: 2px solid grey;
+    box-sizing: border-box;
+    background-color: #3f444b;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-transform: uppercase;
+    background-color: #3f444b;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
 
 .headerIcon{
 	margin-top: 192px;
 }
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+   
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+      h1 {
+        font-size: 16px;
+      }
+
+      header h1{
+        margin-top: 100px;
+        margin-bottom: 28px;
+      }
+
+      .header-text{
+        width: 80%;
+        font-size: 18px;
+      }
+    }
