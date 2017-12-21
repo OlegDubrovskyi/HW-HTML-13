@@ -180,7 +180,7 @@ main h1 {
 
 @media (min-width: 320px) and (max-width: 767px) {
     h1 {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     main h1 {
