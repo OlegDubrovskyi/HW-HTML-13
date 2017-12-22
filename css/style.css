@@ -142,28 +142,46 @@ main h1 {
     width: 270px;
 }
 
+.ourWorks h2{ 
+  font-size: 35px;
+  font-family: "Open Sans";
+  color: rgb(59, 67, 76);
+  line-height: 1.143;
+  text-transform: uppercase;
+}
+
+.ourWorks_description{
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(59, 67, 76);
+  line-height: 1.875;
+  width: 50%;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
 /* 4. Fourth section  -------------------------------------------------------------- */
 
 .ourWorks {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #fff;
 }
 
 .ourWorksImg{
-    height: 320px;
-    width: 320px;
+    height: 362px;
+    width: 362px;
 }
 
 .ourWorksImgBlock{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .sixthPicture{
     background-image: url(../img/section4Img6.png);
     background-size: cover;
-    height: 320px;
-    width: 320px;
+    height: 362px;
+    width: 362px;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -172,13 +190,18 @@ main h1 {
 .imageTitle{
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: "OpenSans";
 }
 
 .imageDescription{
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    font-size: 10px;
+    font-family: "Open Sans";
+    width: 66%;
 }
 
 .ourWorks_section_button{
@@ -187,13 +210,13 @@ main h1 {
 }
 
 .ourWorksMarBut{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .sixthPicture .button:hover{
     background-color: #fff;
     text-decoration: none;
-    color: orange;
+    color: #f7600e;
     border-color: #fff;
 }
 
@@ -207,7 +230,6 @@ main h1 {
 
 .fiveSection{
     background-image: url(../img/section5Background.png);
-    /* background-image: url(../img/Section5Arrows.png); */
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -215,13 +237,27 @@ main h1 {
 
 .author{
     color: #fff;
-    margin-top: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: "Open Sans";
 }
 
 .fiveSection_Avadescription{
-    margin-top: 20px;
+    margin-top: 55px;
     color: #fff;
+    font-size: 25px;
+    font-family: "Open Sans";
+    font-style: italic;
+    width: 80%;
 }
+
+    .table{
+        
+    }
+
+    .arrow{
+        
+    }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
 
@@ -309,6 +345,68 @@ main h1 {
     .third_section {
         padding-top: 68px;
         padding-bottom: 68px;
+    }
+
+    .ourWorksImg{
+        height: 220px;
+        width: 220px;
+    }
+
+    .sixthPicture{
+        height: 220px;
+        width: 220px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .imageTitle{
+        margin-bottom: 15px;
+        font-size: 18px; 
+    }
+
+    .imageDescription{
+        margin-bottom: 10px;
+        font-size: 10px;
+        width: 66%;
+    }
+
+    .ourWorks_section_button{
+        padding-top: 10px;
+        width: 150px;
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .ourWorks h2{ 
+          font-size: 25px;
+          
+        }
+
+    .ourWorks_description{
+      font-size: 12px;
+      width: 70%;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .ourWorks {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ourWorksMarBut{
+        margin-bottom: 15px;
+    }
+
+    .author{
+        margin-top: 25px;
+        font-size: 12px;
+    }
+
+    .fiveSection_Avadescription{
+        margin-top: 30px;
+        font-size: 16px;
+        width: 70%;
     }
 }
 
