@@ -1,3 +1,52 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    display: none;
+}
+
+.content{
+    width: 80%;
+    background: #fff;
+    margin: 40px auto;
+    border-radius: 4px;
+    position: relative;
+    padding-top: 15px;
+    margin-top: 270px;
+    padding-bottom: 90px;
+}
+
+.active{
+    display: block;
+}
+
+.popUpIcon{
+    position: absolute;
+    top: -35%;
+    left: 25%;
+}
+
+.pop_up_title{
+  font-size: 48px;
+  font-family: "Montserrat";
+  color: #dc2e44;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 280px;
+}
+
+.pop_up_description{
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: #b9bcd1;
+  line-height: 1.2;
+  margin-top: 15px;
+  margin-bottom: 90px;
+}
+
 .main {
     background-image: url(../img/headerBackground.png);
     padding-top: 50px;
