@@ -1,3 +1,7 @@
+.decorationNone {
+    text-decoration: none;
+}
+
 .overlay{
     position: fixed;
     top: 0;
@@ -12,9 +16,8 @@
     width: 80%;
     background: #fff;
     margin: 40px auto;
-    border-radius: 4px;
+    border-radius: 7px;
     position: relative;
-    padding-top: 15px;
     margin-top: 270px;
     padding-bottom: 90px;
 }
@@ -24,9 +27,8 @@
 }
 
 .popUpIcon{
-    position: absolute;
-    top: -35%;
-    left: 25%;
+    position: relative; 
+    top: -234px;
 }
 
 .pop_up_title{
@@ -35,7 +37,7 @@
   color: #dc2e44;
   font-weight: bold;
   line-height: 1.2;
-  margin-top: 280px;
+  margin-top: -240px;
 }
 
 .pop_up_description{
@@ -47,6 +49,18 @@
   margin-bottom: 90px;
 }
 
+.popUpbutton {
+    border: 1px solid #dc2e44;
+    background-color: #dc2e44;
+    padding-top: 18px;
+    width: 240px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+
 .main {
     background-image: url(../img/headerBackground.png);
     padding-top: 50px;
@@ -56,10 +70,6 @@
 p {
     margin: 0;
     padding: 0;
-}
-
-.decorationNone {
-    text-decoration: none;
 }
 
 .menuText {
@@ -283,6 +293,7 @@ main h1 {
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 100%;
 }
 
 .author{
@@ -308,14 +319,12 @@ main h1 {
     .arrowLeft{
        position: absolute;
        top: 50%;
-        /* transform: translate(X(-50%));   */
     }
 
      .arrowRight{
        position: absolute;
        top: 50%;
        left: 95.5%;
-       /* transform: translate(Y(50%)); */ 
     } 
 
 @media (min-width: 1200px) and (max-width: 1600px) {
@@ -330,6 +339,26 @@ main h1 {
 
     .inputBorder {
         text-align: center;
+    }
+
+    .pop_up_title{
+      font-size: 28px;
+      margin-top: -100px;
+    }
+
+    .pop_up_description{
+      font-size: 16px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+
+    .popIcon{
+        width: 200px;
+        height: 200px; 
+    }
+
+    .popUpIcon{
+        top: -100px;
     }
 
 }
@@ -363,6 +392,26 @@ main h1 {
         width: 320px;
         padding-top: 25px;
         padding-bottom: 25px;
+    }
+
+    .pop_up_title{
+      font-size: 28px;
+      margin-top: -100px;
+    }
+
+    .pop_up_description{
+      font-size: 16px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+
+    .popIcon{
+        width: 200px;
+        height: 200px; 
+    }
+
+    .popUpIcon{
+        top: -100px;
     }
 }
 
@@ -487,6 +536,43 @@ main h1 {
     .arrowRight{
         right: -10%;
     }
+
+    .pop_up_title{
+      font-size: 22px;
+      margin-top: -50px;
+    }
+
+    .pop_up_description{
+      font-size: 14px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+
+    .popIcon{
+        width: 120px;
+        height: 120px; 
+    }
+
+    .popUpIcon{
+        top: -60px;
+    }
+
+    .content{
+        padding-bottom: 40px;
+        width: 100%;
+    }
+
+    .arrowLeft{
+       position: absolute;
+       top: 50%;
+       left: 1%;
+    }
+
+     .arrowRight{
+       position: absolute;
+       top: 50%;
+       left: 85%;
+    } 
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
